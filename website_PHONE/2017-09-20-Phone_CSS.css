@@ -1,0 +1,340 @@
+@charset:"utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+#all{
+	width: 100%;
+	height: auto;
+	background-image: url('img/img_pc/allBackgroung.jpg');
+}
+#header{
+	width: 100%;
+	height: 80vh;
+	background-image: url('img/img_phone/M_A.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+}
+#logo{
+	width: 200px;
+	height: 20%;
+	margin-left:auto;
+	margin-right: auto;
+	background-image: url('img/img_pc/LOGO.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#navtop{
+	width: 100%;
+	height: 35px;
+}
+#content{
+	width: 100%;
+	height: auto;
+}
+#Aboutus{
+	width: 100%;
+	height: 60vh;
+	background-image: url('img/img_phone/AboutUs.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+#Special{
+	width: 100%;
+	height: 60vh;
+	background-image: url('img/img_phone/Discount.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+#Reservation{
+	width: 100%;
+	height: 60vh;
+	background-image: url('img/img_phone/Reservation.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+
+}
+#reservationblock{
+	width: 70%;
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 14.5px;
+	padding-left: 13.5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#date{
+	width: 245px;
+	height: 17px;
+	font-size: 10px;
+	margin-bottom: 14.5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: gray;
+	color: gray;
+}
+#time{
+	width: 245px;
+	height: 17px;
+	font-size: 10px;
+	margin-bottom: 14.5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: gray;
+	color: gray;
+}
+#people{
+	width: 245px;
+	height: 17px;
+	font-size: 10px;
+	margin-bottom: 14.5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: gray;
+	color: gray;
+}
+#phone{
+	width: 245px;
+	height: 17px;
+	font-size: 10px;
+	margin-bottom: 14.5px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: gray;
+	color: gray;
+}
+#name{
+	width: 245px;
+	height: 17px;
+	font-size: 10px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: gray;
+	color: gray;
+	margin-bottom: 50px;
+}
+#submit{
+	margin-left: -15px;
+}
+#Contactus{
+	width: 100%;
+	height: 60vh;
+}
+#information{
+	width: 80%;
+	height: 70vh;
+	background-image: url('img/img_pc/Contactus.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer{
+	width: 100%;
+	height: 50vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-top: 20px;
+}
+#community{
+	width: 257px;
+	height: 61px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#facebook{
+	width: 68px;
+	height: 68px;
+	float: left;
+	margin-right: 25px;
+	background-image: url('img/img_pc/facebook.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#line{
+	width: 68px;
+	height: 68px;
+	float: left;
+	margin-right: 25px;
+	background-image: url('img/img_pc/line.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#instagram{
+	width: 68px;
+	height: 68px;
+	float: left;
+	background-image: url('img/img_pc/instagram.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#navdown{
+	width: 100%;
+	height: auto;
+}
+#footeraboutus{
+	width: 257px;
+	height: 15px;
+	margin-left: 135px;
+	margin-right: 50px;
+	padding-top: 22px;
+	font-size: 20px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footermenu{
+	width: 257px;
+	height: 15px;
+	margin-left: 135px;
+	margin-right: 50px;
+	padding-top: 22px;
+	font-size: 20px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footerspecial{
+	width: 257px;
+	height: 15px;
+	margin-left: 135px;
+	margin-right: 50px;
+	padding-top: 22px;
+	font-size: 20px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footerreservation{
+	width: 257px;
+	height: 15px;
+	margin-left: 135px;
+	margin-right: 50px;
+	padding-top: 22px;
+	font-size: 20px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footercontactus{
+	width: 257px;
+	height: 60px;
+	margin-left: 135px;
+	padding-top: 22px;
+	font-size: 20px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footercopyright{
+	width: 257px;
+	height: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	color: white;
+}
+.burger {
+    display: inline-block;
+    border: 0;
+    background: none;
+    outline: 0;
+    padding: 0;
+    cursor: pointer;
+    border-bottom: 4px solid currentColor;
+    width: 28px;
+    transition: border-bottom 1s ease-in-out;
+    -webkit-transition: border-bottom 1s ease-in-out;
+}
+.burger::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.burger:before {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger:after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check {
+    display: none;
+}
+.burger-check:checked ~ .burger {
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.8s ease-in-out;
+    -webkit-transition: border-bottom 0.8s ease-in-out;
+}
+.burger-check:checked ~ .burger:before {
+    -ms-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.burger-check:checked ~ .burger:after {
+    -ms-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+.navigation {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+}
+.burger-check:checked ~ .navigation {
+    max-height: 500px;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+}
+body {
+    font-size: 30px;
+    text-align: centeR;
+}
+
+a {
+    color: white;
+}
+small {
+    font-size: 14px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    font-size: 25px;
+    padding: 5px 0;
+}
+li a {
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: none;
+}

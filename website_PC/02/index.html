@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+	<head>
+		<meta charset="UTF-8">
+		<title>日享星醺</title>
+		<link rel="stylesheet" href="2017-09-20-PC_CSS.css">
+		<STYLE>
+		<!-- A{text-decoration:none} -->
+		</STYLE>
+		
+	</head>
+	<body>
+		<div id="all">
+			<div id="header">
+				<div id="navtop">
+					<div id="home" align="center"><a href="#header">首頁 Home</a></div>
+					<div id="aboutus" align="center"><a href="#Aboutus">關於我們 About us</a></div>
+					<div id="menu" align="center"><a href="#Menu">精緻菜單 Menu</a></div>
+					<div id="special" align="center"><a href="#Special">主題促銷 Special discount</a></div>
+					<div id="reservation" align="center"><a href="#Reservation">線上訂位 Reservation</a></div>
+					<div id="contactus" align="center"><a href="#Contactus">連絡我們 Contact us</a></div>
+				</div>
+				<div id="logo"></div>
+			</div>
+			<div id="content">
+				<div id="Aboutus"></div>
+				<div id="Menu">
+					<div id="Menuup">
+						<div id="menu1" style="box-shadow:0px 0px 15px gray"></div>
+						<div id="menu2" style="box-shadow:0px 0px 15px gray"></div>
+						<div id="menu3" style="box-shadow:0px 0px 15px gray"></div>
+						<div id="menu4" style="box-shadow:0px 0px 15px gray"></div>
+					</div>
+					<div id="Menudown">
+						<div id="menu5" style="box-shadow:0px 0px 15px gray"></div>
+						<div id="menu6" style="box-shadow:0px 0px 15px gray"></div>
+						<div id="menu7" style="box-shadow:0px 0px 15px gray"></div>
+						<div id="menu8" style="box-shadow:0px 0px 15px gray"></div>
+					</div>
+				</div>
+				<div id="Special"></div>
+				<div id="Reservation">
+					<div id="reservationblock">
+						<style>
+									input {width:352px;height: 39px;padding:5px 15px; background:white; border:0 none;cursor:pointer;
+									-webkit-border-radius: 5px;
+									border-radius: 5px;font-size: 20px; }
+						</style>
+						<div id="date"><input type="text" placeholder="輸入日期" ></div>
+						<div id="time"><input type="text" placeholder="輸入時間" ></div>
+						<div id="people"><input type="text" placeholder="人數" ></div>
+						<div id="phone"><input type="text" placeholder="手機" ></div>
+						<div id="name"><input type="text" placeholder="姓名" ></div>
+						<div id="submit"><input type="submit"></div>	
+					</div>
+				</div>
+				<div id="Contactus">
+					<div id="information"></div>
+					<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.714481127367!2d120.7135052144578!3d24.251762984344566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691a089d15186d%3A0x8d0f8a15c2a83180!2zNDIw5Y-w5Lit5biC6LGQ5Y6f5Y2A5Lit5q2j6LevMjkw6Jmf!5e0!3m2!1szh-TW!2stw!4v1505835839910" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="community">
+					<div id="facebook" align="center"></div>
+					<div id="line" align="center"></div>
+					<div id="instagram" align="center"></div>
+				</div>
+				<div id="navdown">
+					<div id="footeraboutus" align="center"><a href="#Aboutus">關於我們 About us</a></div>
+					<div id="footermenu" align="center"><a href="#Menu">精緻菜單 Menu</a></div>
+					<div id="footerspecial" align="center"><a href="#Special">主題促銷 Special discount</a></div>
+					<div id="footerreservation" align="center"><a href="#Reservation">線上訂位 Reservation</a></div>
+					<div id="footercontactus" align="center"><a href="#Contactus">連絡我們 Contact us</a></div>
+				</div>
+				<div id="footercopyright" align="center">@ M&N, Inc</div>
+			</div>
+		</div>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript">
+			$('a').click(function(){
+		$('html, body').animate({
+		scrollTop: $( $(this).attr('href') ).offset().top
+		}, 500);
+		return false;
+		});
+		</script>
+	</body>
+</html>
